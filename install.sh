@@ -84,6 +84,9 @@ sudo cp nmn-cli /usr/local/bin
 cd /usr/local/bin
 sudo chmod +x /usr/local/bin/nmnd
 sudo chmod +x /usr/local/bin/nmn-cli
+nmnd -daemon
+sleep 60
+nmn-cli stop
 clear
 
 #Setting up coin
@@ -97,9 +100,6 @@ sleep 10
 
 #Create nmn.conf
 echo '
-rpcuser='$password'
-rpcpassword='$password2'
-rpcallowip=127.0.0.1
 listen=1
 server=1
 daemon=1
