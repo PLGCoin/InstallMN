@@ -84,7 +84,6 @@ sudo cp nmn-cli /usr/local/bin
 cd /usr/local/bin
 sudo chmod +x /usr/local/bin/nmnd
 sudo chmod +x /usr/local/bin/nmn-cli
-nmnd -daemon
 clear
 
 #Setting up coin
