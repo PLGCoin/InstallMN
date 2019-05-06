@@ -9,7 +9,7 @@ fi
 # Set these to change the version of NMN to install
 TARBALLURL="https://github.com/99Masternodes/NMN/releases/download/1.0.0.1/ubuntu16-daemon.zip"
 TARBALLNAME="ubuntu16-daemon.zip"
-NMNVERSION="1.0.0.10"
+NMNVERSION="1.0.0.1"
 # Get our current IP
 EXTERNALIP=`dig +short myip.opendns.com @resolver1.opendns.com`
 clear
